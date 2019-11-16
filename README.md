@@ -4,5 +4,5 @@
 
 以及自己学习[数据结构](https://github.com/tangyihengsb/datastructure-algorithms/tree/master/datastructrue-learning)与[算法](https://github.com/tangyihengsb/datastructure-algorithms/tree/master/algorithms-learning)整理的笔记、代码。
 
-另外一个很棒的算法学习网站:[algorithms](https://algorithms.tutorialhorizon.com/)
+另外一个很棒的[算法学习网站](https://algorithms.tutorialhorizon.com/)
 
