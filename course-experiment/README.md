@@ -1,9 +1,9 @@
 # 课程实验
 
-## 实验一
+## [实验一](https://github.com/tangyihengsb/datastructure-algorithms/tree/master/course-experiment/convert-decimal-Ndigit)
 
 实验名称：
-  十进制数到N进制数的转换
+  [十进制数到N进制数的转换](https://github.com/tangyihengsb/datastructure-algorithms/tree/master/course-experiment/convert-decimal-Ndigit)
   
 实验目的：
   掌握顺序栈的入栈出栈等基本操作的编程实现
