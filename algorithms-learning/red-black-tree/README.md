@@ -1,1 +1,3 @@
 红黑树
+
+[维基百科](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
