@@ -62,6 +62,6 @@
 
 这里Ai的维数为。可以递归地定义m[i,j]为：
 
-![](https://latex.codecogs.com/gif.latex?\fn_cs&space;m[i,j]=&space;\begin{cases}&space;&&space;0&space;\text{&space;,&space;if&space;}&space;i=j&space;\\&space;&&space;m[i][k]&plus;m[k&plus;1][j]&plus;p_{i-1}p_kp_j&space;\text{&space;,&space;if&space;}&space;i<j&space;\end{cases})
+![](https://latex.codecogs.com/png.latex?%5Cfn_cs%20m%5Bi%2Cj%5D%3D%20%5Cbegin%7Bcases%7D%20%26%200%20%5Ctext%7B%20%2C%20if%20%7D%20i%3Dj%20%5C%5C%20%26%20m%5Bi%5D%5Bk%5D&plus;m%5Bk&plus;1%5D%5Bj%5D&plus;p_%7Bi-1%7Dp_kp_j%20%5Ctext%7B%20%2C%20if%20%7D%20i%3Cj%20%5Cend%7Bcases%7D)
 
 k的位置只有j – i种可能。
