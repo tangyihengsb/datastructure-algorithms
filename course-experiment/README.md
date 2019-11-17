@@ -56,6 +56,12 @@
   输入n + 1个自然数p0, p1, p2, p3,…, pn作为n个矩阵Ai的维数，, 用动态规划算法求解这n个矩阵连乘积A = A1×A2×A3×…×An的最优加括号方式及最少乘法次数。
     
 实验原理：
-  设计算A[i: j] 所需要的最少数乘次数m[i, j]，1≤ i ≤ j ≤ n，则原问题的最优值为m[1, n]。当i = j时，A[i: j] = Ai，因此，m[i, i] = 0，i=1, 2, …, n；当i < j时，可以递归地定义m[i, j]为：，这里Ai的维数为。可以递归地定义m[i,j]为：
-，
+  设计算A[i: j] 所需要的最少数乘次数m[i, j]，1≤ i ≤ j ≤ n，则原问题的最优值为m[1, n]。当i = j时，A[i: j] = Ai，因此，m[i, i] = 0，i=1, 2, …, n；当i < j时，可以递归地定义m[i, j]为：
+  
+![](https://latex.codecogs.com/gif.latex?\fn_cs&space;m[i,j]=m[i][k]&plus;m[k&plus;1][j]&plus;p_{i-1}p_kp_j)
+
+这里Ai的维数为。可以递归地定义m[i,j]为：
+
+![](https://latex.codecogs.com/gif.latex?\fn_cs&space;m[i,j]=&space;\begin{cases}&space;&&space;0&space;\text{&space;,&space;if&space;}&space;i=j&space;\\&space;&&space;m[i][k]&plus;m[k&plus;1][j]&plus;p_{i-1}p_kp_j&space;\text{&space;,&space;if&space;}&space;i<j&space;\end{cases})
+
 k的位置只有j – i种可能。
