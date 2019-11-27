@@ -18,4 +18,8 @@
 
 ![](https://latex.codecogs.com/png.latex?%5Cfn_cs%20m%5Bi%2Cj%5D%3D%20%5Cbegin%7Bcases%7D%20%26%200%20%5Ctext%7B%20%2C%20if%20%7D%20i%3Dj%20%5C%5C%20%26%20m%5Bi%5D%5Bk%5D&plus;m%5Bk&plus;1%5D%5Bj%5D&plus;p_%7Bi-1%7Dp_kp_j%20%5Ctext%7B%20%2C%20if%20%7D%20i%3Cj%20%5Cend%7Bcases%7D)
 
-`k`的位置只有`j – i`种可能。
+`k`的位置只有`j – i`种可能
+
+实验结果：
+
+![](https://tyh-blog-image.oss-cn-beijing.aliyuncs.com/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95-%E5%9B%BE%E7%89%87/%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C%E6%88%AA%E5%9B%BE/matrix-chain.png)
